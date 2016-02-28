@@ -5,6 +5,7 @@
         <members>Welcome2</members>
         <members>Welcome3</members>
         <members>Welcome4A</members>
+        <members>WelcomeRecovaryBranch</members>
         <name>ApexClass</name>
     </types>
     <types>
