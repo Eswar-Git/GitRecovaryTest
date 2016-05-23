@@ -56,36 +56,21 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>StudentDescription__c</fullName>
+        <fullName>PersonDescription__c</fullName>
         <externalId>false</externalId>
-        <label>StudentDescription</label>
+        <label>PersonDescription</label>
+        <length>25</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>TextArea</type>
-    </fields>
-    <fields>
-        <fullName>StudentPhone__c</fullName>
-        <externalId>false</externalId>
-        <label>StudentPhone</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Phone</type>
-    </fields>
-    <fields>
-        <fullName>StudentEmail__c</fullName>
-        <externalId>false</externalId>
-        <label>StudentEmail</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Email</type>
+        <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Student</label>
+    <label>Person</label>
     <nameField>
-        <label>Student Name</label>
+        <label>Person Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Students</pluralLabel>
+    <pluralLabel>Persons</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

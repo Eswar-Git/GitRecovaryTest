@@ -4,19 +4,25 @@
     <types>
         <members>info1</members>
         <members>info2</members>
+        <members>info3</members>
         <name>ApexClass</name>
     </types>
     <types>
+        <members>Person__c.PersonDescription__c</members>
         <members>Student__c.StudentDescription__c</members>
+        <members>Student__c.StudentEmail__c</members>
         <members>Student__c.StudentPhone__c</members>
         <name>CustomField</name>
     </types>
     <types>
         <members>CLabel1</members>
         <members>CLabel2</members>
+        <members>CLabel3</members>
+        <members>CLabel4</members>
         <name>CustomLabel</name>
     </types>
     <types>
+        <members>Person__c</members>
         <members>Student__c</members>
         <name>CustomObject</name>
     </types>

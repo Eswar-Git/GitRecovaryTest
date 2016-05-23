@@ -28,6 +28,10 @@
         <apexClass>info2</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>info3</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -1212,6 +1216,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Student__c.StudentPhone__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Person__c.PersonDescription__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Student__c.StudentEmail__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
